@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="mystyle.css" />
   </head>
   <body>
-    <div class="flex-container">
-      <div class="nameDiv">
+    <div class="flex-container" style="border: 2px solid black">
+      <div class="nameDiv" id ="fitstName">
         <h4>Enter your name</h4>
         <span id="errMsg"> </span>
         <input type="text" id="firstName" class="form-control m-2" />
@@ -19,10 +19,10 @@
       </div>
       <div class="simleyDiv" id="simleyDiv">
         <span id="welcomeText"></span>
-        <span id="displayMood"></span><br />
+        <span id="displayMood"></span><br/>
         <p>
           <img src="./myimages/sad.png" id="sad" alt="Sad" />
-          <img src="./myimages/stressed.png" alt="Stressed" />
+          <img src="./myimages/stressed.png" id="stressed" alt="Stressed" />
           <img src="./myimages/happy.png" id="happy" alt="Happy" />
         </p>
         
@@ -33,6 +33,6 @@
       <div class="displayMessage" id="displayMessage"></div>
     </div>
 
-    <script src="myscript.js"></script>
+    <script src="newscript.js"></script>
   </body>
 </html>
